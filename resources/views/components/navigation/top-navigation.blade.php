@@ -9,10 +9,14 @@
                 </a>
             </div>
             <div class="hidden md:flex items-center space-x-8">
-                <x-navigation.top-navigation-link>Home</x-navigation.top-navigation-link>
+                <a href="#home" class="nav-link text-gray-700 hover:text-red-400 transition duration-300">Home</a>
+                <a href="#skills" class="nav-link text-gray-700 hover:text-primary-600 transition duration-300">Skills</a>
+                <a href="#work" class="nav-link text-gray-700 hover:text-primary-600 transition duration-300">Work</a>
+                <a href="#contact" class="nav-link text-gray-700 hover:text-primary-600 transition duration-300">Contact</a>
+                {{-- <x-navigation.top-navigation-link>Home</x-navigation.top-navigation-link>
                 <x-navigation.top-navigation-link>Skills</x-navigation.top-navigation-link>
                 <x-navigation.top-navigation-link>Works</x-navigation.top-navigation-link>
-                <x-navigation.top-navigation-link>Contact</x-navigation.top-navigation-link>
+                <x-navigation.top-navigation-link>Contact</x-navigation.top-navigation-link> --}}
                 
             </div>
             <div class="md:hidden flex items-center">
