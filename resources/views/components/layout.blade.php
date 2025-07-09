@@ -16,6 +16,8 @@
 
     <!-- CUSTOMIZE CSS -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <!-- CUSTOMIZE JS -->
+    <link rel="stylesheet" href="{{ asset('js/global.js') }}">
 
 </head>
 
