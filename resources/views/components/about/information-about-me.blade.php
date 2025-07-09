@@ -13,10 +13,8 @@
 
         <div class="flex space-x-4">
             <x-buttons.button-view-my-work> View My Work </x-buttons.button-view-my-work>
+            <x-buttons.button-contact-me>Contact Me</x-buttons.button-contact-me>
             
-            <a href="#contact" class="px-6 py-3 border border-primary-600 text-primary-600 rounded-lg hover:bg-primary-50 transition duration-300">
-                Contact Me
-            </a>
         </div>
         <div class="mt-12">
             <p class="text-sm text-gray-500 mb-2">Connect with me:</p>
