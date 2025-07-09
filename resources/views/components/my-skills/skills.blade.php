@@ -54,7 +54,7 @@
             </x-my-skills.tech-card>
 
             <x-my-skills.tech-card 
-                icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" 
+                icon="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" 
                 label="Tailwind CSS Logo"
             >
                 Tailwind CSS
