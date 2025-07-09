@@ -11,7 +11,12 @@
         </div>
 
         <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-6">
-
+            <x-my-skills.tech-card 
+                icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" 
+                label="HTML5 Logo"
+            >
+                HTML 5
+            </x-my-skills.tech-card>
         </div>
     </div>
 </section>
