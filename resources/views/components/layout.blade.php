@@ -10,6 +10,8 @@
 </head>
 
 <body class="bg-gray-50 text-gray-800 pt-0">
-    
+
+    {{ $slot }}
+
 </body>
 </html>
