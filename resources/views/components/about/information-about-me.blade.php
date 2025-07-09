@@ -19,18 +19,10 @@
         <div class="mt-12">
             <p class="text-sm text-gray-500 mb-2">Connect with me:</p>
             <div class="flex space-x-4">
-                <a href="#" class="social-icon text-gray-600 hover:text-primary-600 transition duration-300">
-                    <i class="fab fa-github text-2xl"></i>
-                </a>
-                <a href="#" class="social-icon text-gray-600 hover:text-primary-600 transition duration-300">
-                    <i class="fab fa-linkedin text-2xl"></i>
-                </a>
-                <a href="#" class="social-icon text-gray-600 hover:text-primary-600 transition duration-300">
-                    <i class="fab fa-twitter text-2xl"></i>
-                </a>
-                <a href="#" class="social-icon text-gray-600 hover:text-primary-600 transition duration-300">
-                    <i class="fab fa-instagram text-2xl"></i>
-                </a>
+                <x-buttons.button-connect-with-me icons="fab fa-github text-2xl"/>
+                <x-buttons.button-connect-with-me icons="fab fa-instagram text-2xl"/>
+                {{-- <x-buttons.button-connect-with-me icons="fab fa-github text-2xl"/>
+                <x-buttons.button-connect-with-me icons="fab fa-github text-2xl"/> --}}
             </div>
         </div>
     </div>
