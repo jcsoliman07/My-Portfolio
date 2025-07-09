@@ -6,3 +6,8 @@
     --light: #f8f9fa;
     --accent-light: #3D0000;
 }
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
