@@ -17,6 +17,48 @@
             >
                 HTML 5
             </x-my-skills.tech-card>
+
+            <x-my-skills.tech-card 
+                icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" 
+                label="CSS3 Logo"
+            >
+                CSS3
+            </x-my-skills.tech-card>
+
+            <x-my-skills.tech-card 
+                icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" 
+                label="JavaScript Logo"
+            >
+                JavaScript
+            </x-my-skills.tech-card>
+
+            <x-my-skills.tech-card 
+                icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" 
+                label="PHP Logo"
+            >
+                PHP
+            </x-my-skills.tech-card>
+
+            <x-my-skills.tech-card 
+                icon="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" 
+                label="Laravel Logo"
+            >
+                Laravel
+            </x-my-skills.tech-card>
+
+            <x-my-skills.tech-card 
+                icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" 
+                label="Bootstrap Logo"
+            >
+                Bootstrap
+            </x-my-skills.tech-card>
+
+            <x-my-skills.tech-card 
+                icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" 
+                label="Tailwind CSS Logo"
+            >
+                Tailwind CSS
+            </x-my-skills.tech-card>
         </div>
     </div>
 </section>
