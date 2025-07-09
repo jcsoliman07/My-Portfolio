@@ -1,6 +1,9 @@
 <div class="md:w-1/2 mb-10 md:mb-0 animate-fadeIn">
+
         <h6 class="text-primary-600 font-semibold mb-4">HELLO, I'M</h6>
-        <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold gradient-text mb-4">Your Name Here</h1>
+        
+        <x-heading.heading-1>Jomar C. Soliman</x-heading.heading-1>
+
         <h2 class="text-2xl md:text-3xl font-semibold text-gray-700 mb-6">Full Stack Developer</h2>
         <p class="text-gray-600 mb-8 max-w-lg">
             Passionate web developer with expertise in creating responsive and user-friendly websites. 
