@@ -5,7 +5,7 @@
         
         <div class="md:w-1/2 flex justify-center animate-fadeIn delay-100">
             <div class="relative">
-                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/aade5273-2e45-4115-b810-03f259cc4aaf.png" alt="Professional developer portrait smiling at camera with modern office background" class="relative w-80 h-80 sm:w-96 sm:h-96 rounded-full object-cover border-8 border-white shadow-lg" />
+                <img src="{{ asset('images/my-image.jpg') }}" alt="My Image" class="relative w-80 h-80 sm:w-96 sm:h-96 rounded-full object-cover border-8 border-white shadow-lg" />
             </div>
         </div>
     </div>
