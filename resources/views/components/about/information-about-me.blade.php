@@ -4,7 +4,7 @@
 
         <x-heading.heading-1>Jomar C. Soliman</x-heading.heading-1>
 
-        <h2 class="text-2xl md:text-3xl font-semibold text-gray-700 mb-6">Full Stack Developer</h2>
+        <x-heading.heading-2>Web Developer</x-heading.heading-2>
         <p class="text-gray-600 mb-8 max-w-lg">
             Passionate web developer with expertise in creating responsive and user-friendly websites. 
             I transform ideas into beautiful, functional digital experiences.
