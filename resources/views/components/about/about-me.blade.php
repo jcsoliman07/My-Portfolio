@@ -1,4 +1,4 @@
-<section id="home" class="pt-16 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-gray-900 to-gray-800">
+<section id="home" class="pt-20  pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-gray-900 to-gray-800">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
 
         <x-about.information-about-me/>
