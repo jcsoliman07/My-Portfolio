@@ -9,9 +9,9 @@
                 </a>
             </div>
             <div class="hidden md:flex items-center space-x-8">
-                <x-navigation.top-navigation-link>Home</x-navigation.top-navigation-link>
-                <x-navigation.top-navigation-link>Skills</x-navigation.top-navigation-link>
-                <x-navigation.top-navigation-link>Works</x-navigation.top-navigation-link>
+                <x-navigation.top-navigation-link href="#">Home</x-navigation.top-navigation-link>
+                <x-navigation.top-navigation-link href="#skills">Skills</x-navigation.top-navigation-link>
+                <x-navigation.top-navigation-link href="#work">Works</x-navigation.top-navigation-link>
                 <x-navigation.top-navigation-link>Contact</x-navigation.top-navigation-link>
                 
             </div>
