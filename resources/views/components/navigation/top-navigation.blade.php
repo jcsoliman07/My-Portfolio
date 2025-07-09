@@ -22,3 +22,14 @@
             </div>
         </div>
     </div>
+    
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <a href="#home" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-gray-800">Home</a>
+            <a href="#skills" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">Skills</a>
+            <a href="#work" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">Work</a>
+            <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">Contact</a>
+        </div>
+    </div>
+</nav>
