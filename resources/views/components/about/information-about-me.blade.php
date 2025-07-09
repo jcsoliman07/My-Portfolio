@@ -1,7 +1,7 @@
 <div class="md:w-1/2 mb-10 md:mb-0 animate-fadeIn">
 
-        <h6 class="text-primary-600 font-semibold mb-4">HELLO, I'M</h6>
-        
+        <x-heading.heading-6>HELLO, I'M</x-heading.heading-6>
+
         <x-heading.heading-1>Jomar C. Soliman</x-heading.heading-1>
 
         <h2 class="text-2xl md:text-3xl font-semibold text-gray-700 mb-6">Full Stack Developer</h2>
