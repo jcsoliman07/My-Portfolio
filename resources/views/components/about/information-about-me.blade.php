@@ -5,16 +5,15 @@
         <x-heading.heading-1>Jomar C. Soliman</x-heading.heading-1>
 
         <x-heading.heading-2>Web Developer</x-heading.heading-2>
-        
+
         <x-paragraph.paragraph-text>
             Passionate web developer with expertise in creating responsive and user-friendly websites. 
             I transform ideas into beautiful, functional digital experiences.
         </x-paragraph.paragraph-text>
 
         <div class="flex space-x-4">
-            <a href="#work" class="px-6 py-3 gradient-bg text-white rounded-lg hover:bg-red-800 transition duration-300">
-                View My Work
-            </a>
+            <x-buttons.button-view-my-work> View My Work </x-buttons.button-view-my-work>
+            
             <a href="#contact" class="px-6 py-3 border border-primary-600 text-primary-600 rounded-lg hover:bg-primary-50 transition duration-300">
                 Contact Me
             </a>
