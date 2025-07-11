@@ -19,5 +19,9 @@ export default defineConfig({
         host: '0.0.0.0',
         port: process.env.PORT || 4173,
         strictPort: true,
+        allowedHosts: [
+            'jomar-soliman-portfolio.onrender.com',
+            'localhost' // keep local development allowed
+        ]
     }
 });
