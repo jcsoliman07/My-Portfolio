@@ -8,7 +8,7 @@
         </div>
 
         <div class="mb-16">
-            
+            <x-my-works.work-card/>
         </div>
     </div>
 </section>
