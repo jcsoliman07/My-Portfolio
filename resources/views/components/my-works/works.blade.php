@@ -46,6 +46,15 @@
         <div class="mb-8">
             <x-heading.heading-3>Design Projects</x-heading.heading-3>
 
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <x-design-card
+                    image=""
+                    alt="Facebook Frames"
+                    title="Sportsfest Facebook Frames"
+                    description=""
+                    detailsUrl="#"
+                />
+            </div>
             
         </div>
     </div>

@@ -1,3 +1,20 @@
 <div>
-    <!-- Waste no more time arguing what a good man should be, be one. - Marcus Aurelius -->
+    <div class="project-card rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+
+        <div class="project-image overflow-hidden">
+            <img src="{{ $image }}" alt="{{ $alt }}" class="w-full h-full object-cover" />
+        </div>
+
+        <div class="p-4">
+            <x-heading.heading-4>{{ $title }}</x-heading.heading-4>
+            <p class="text-gray-600">{{ $description }}</p>
+        
+
+            <div class="mt-4">
+                <a href="{{ $detailsUrl }}" class="text-primary-600 hover:text-primary-800 font-medium transition duration-300">View</a>
+            </div>
+        </div>
+        
+    </div>
+    
 </div>

@@ -7,7 +7,7 @@
 
         <div class="p-6">
 
-            <h4 class="font-bold text-xl text-gray-800 mb-2">{{ $title }}</h4>
+            <x-heading.heading-4>{{ $title }}</x-heading.heading-4>
 
             <p class="text-gray-600 mb-4">{{ $description }}</p>
 
