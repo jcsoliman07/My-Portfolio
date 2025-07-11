@@ -11,9 +11,19 @@ class WorkCard extends Component
     /**
      * Create a new component instance.
      */
-    public function __construct()
+
+    public $image, $alt, $title, $description, $tech, $detailsUrl, $externalUrl;
+
+    public function __construct($image, $alt, $title, $description, $tech, $detailsUrl = '#', $externalUrl = '#')
     {
         //
+        $this->image = $image;
+        $this->alt = $alt;
+        $this->title = $title;
+        $this->description = $description;
+        $this->tech = $tech;
+        $this->detailsUrl = $detailsUrl;
+        $this->externalUrl = $externalUrl;
     }
 
     /**
