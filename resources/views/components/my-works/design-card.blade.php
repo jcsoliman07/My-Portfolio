@@ -2,7 +2,7 @@
     <div class="project-card rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300">
 
         <div class="project-image overflow-hidden h-[400px] w-full">
-            <img src="{{ $image }}" alt="{{ $alt }}" class="w-full h-full object-cover" />
+            <img src="{{ $image }}" alt="{{ $alt }}" class="w-full h-full object-cover" loading="lazy" />
         </div>
 
         <div class="p-4">

@@ -47,6 +47,7 @@
             <x-heading.heading-3>Design Projects</x-heading.heading-3>
 
             <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Facebook Frames CDLB Sportsfest -->
                 <x-design-card
                     image="{{ asset('images/FRAMES/FRAME_HUMSS_2025.png') }}"
                     alt="Facebook Frames"
@@ -55,11 +56,21 @@
                     detailsUrl="#"
                 />
 
+                <!-- Facebook Poster CDLB Sportsfest -->
                 <x-design-card
                     image="{{ asset('images/POSTERS/2025_CHEERDANCE_POSTER_LEFT_SIDE.jpg') }}"
                     alt="Sportsfest Poster"
                     title="CDLB Sportsfest 2025 Poster"
-                    description="Celebrate the spirit of competition and unity with the 'Wings of Victory' Facebook frames for CDLB Sportsfest 2025. Featuring bold, dynamic elements and vibrant colors representing unstoppable eagles, these frames bring energy and pride to every profile."
+                    description="Dynamic and bold, the poster showcases the 'Unstoppable Eagles' theme with striking typography and a clean layout, highlighting the 2025 Sportsfest events and participating teams."
+                    detailsUrl="#"
+                />
+
+                <!-- Facebook Poster CDLB Sportsfest -->
+                <x-design-card
+                    image="{{ asset('images/BACKDROP/BACKDROP 1.jpg') }}"
+                    alt="Sportsfest Backdrop"
+                    title="Backdrop"
+                    description="Vibrant and energetic, the backdrop features the 'Unstoppable Eagles' theme with bold typography and a sleek layout, showcasing the 2025 Sportsfest spirit and participating teams."
                     detailsUrl="#"
                 />
             </div>
