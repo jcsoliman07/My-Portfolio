@@ -14,4 +14,13 @@ export default defineConfig({
         outDir: 'public/build',
         emptyOutDir: true,
     },
+    preview: {
+        host: '0.0.0.0',
+        port: 4173,
+        strictPort: true,
+        allowedHosts: [
+            'jomar-soliman-portfolio.onrender.com',
+            'localhost',
+        ],
+    },
 });

@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: jomar-soliman-portfolio
+    env: php
+    plan: free
+    buildCommand: |
+      composer install --no-dev --optimize-autoloader
+      php artisan key:generate
+      php artisan config:cache
+      php artisan route:cache
+      npm install
+      npm run build
+    startCommand: php artisan serve --host=0.0.0.0 --port=$PORT
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: false
+      - key: APP_KEY
+        value: base64:LCX30VHSkVTeDyKwUrw8qaSOK5bsqwqTWJNnmjm7pwE=
+      - key: APP_URL
+        value: https://jomar-soliman-portfolio.onrender.com
