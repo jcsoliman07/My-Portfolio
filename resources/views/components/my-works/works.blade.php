@@ -46,12 +46,20 @@
         <div class="mb-8">
             <x-heading.heading-3>Design Projects</x-heading.heading-3>
 
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <x-design-card
-                    image=""
+                    image="{{ asset('images/FRAMES/FRAME_HUMSS_2025.png') }}"
                     alt="Facebook Frames"
                     title="Sportsfest Facebook Frames"
-                    description=""
+                    description="Celebrate the spirit of competition and unity with the 'Wings of Victory' Facebook frames for CDLB Sportsfest 2025. Featuring bold, dynamic elements and vibrant colors representing unstoppable eagles, these frames bring energy and pride to every profile."
+                    detailsUrl="#"
+                />
+
+                <x-design-card
+                    image="{{ asset('images/POSTERS/2025_CHEERDANCE_POSTER_LEFT_SIDE.jpg') }}"
+                    alt="Sportsfest Poster"
+                    title="CDLB Sportsfest 2025 Poster"
+                    description="Celebrate the spirit of competition and unity with the 'Wings of Victory' Facebook frames for CDLB Sportsfest 2025. Featuring bold, dynamic elements and vibrant colors representing unstoppable eagles, these frames bring energy and pride to every profile."
                     detailsUrl="#"
                 />
             </div>
