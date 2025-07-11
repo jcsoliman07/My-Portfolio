@@ -6,5 +6,9 @@
                 A showcase of my recent projects and design work.
             </x-paragraph.paragraph-text>
         </div>
+
+        <div class="mb-16">
+            
+        </div>
     </div>
 </section>
