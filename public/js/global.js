@@ -1,31 +1,41 @@
 // Mobile menu toggle
-document.getElementById('mobile-menu-button').addEventListener('click', function() {
-    document.getElementById('mobile-menu').classList.toggle('hidden');
-});
+document.addEventListener('DOMContentLoaded', function () {
+    const menuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
 
+    if (menuButton && mobileMenu) {
+        menuButton.addEventListener('click', function () {
+            mobileMenu.classList.toggle('hidden');
+        });
+    }
 
-// Smooth scrolling for anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        
-        document.getElementById('mobile-menu').classList.add('hidden');
-        
-        const targetSection = document.querySelector(this.getAttributes('href'));
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
 
-        // Add Animation class
-        targetSection-classList.add('animate-fadeIn');
+            if (mobileMenu) {
+                mobileMenu.classList.add('hidden');
+            }
 
-        targetSection.scrollIntoView({
-            behavior: 'smooth'
+            const targetId = this.getAttribute('href');
+            const targetSection = document.querySelector(targetId);
+
+            if (targetSection) {
+                // Optional: Add animation class
+                targetSection.classList.add('animate-fadeIn');
+
+                // Smooth scroll
+                targetSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
         });
     });
-});
 
-// Animation on scroll
-document.addEventListener('DOMContentLoaded', function() {
+    // Animation on scroll
     const sections = document.querySelectorAll('section');
-    
+
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -36,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, {
         threshold: 0.1
     });
-    
+
     sections.forEach(section => {
         observer.observe(section);
     });
