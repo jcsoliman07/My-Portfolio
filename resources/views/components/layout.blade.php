@@ -16,8 +16,6 @@
 
     <!-- CUSTOMIZE CSS -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <!-- CUSTOMIZE JS -->
-    <script src="{{ asset('js/global.js') }}"></script>
 
 </head>
 
@@ -25,5 +23,8 @@
 
     {{ $slot }}
 
+
+<!-- CUSTOMIZE JS -->
+<script src="{{ asset('js/global.js') }}"></script>
 </body>
 </html>
