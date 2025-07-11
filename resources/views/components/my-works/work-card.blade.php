@@ -1,1 +1,3 @@
-<x-heading.heading-3>Web Development Projects</x-heading.heading-3>
+<div>
+    <x-heading.heading-3>Web Development Projects</x-heading.heading-3>
+</div>
