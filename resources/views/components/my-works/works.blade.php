@@ -8,6 +8,8 @@
         </div>
 
         <div class="mb-16">
+            <x-heading.heading-3>Web Development Projects</x-heading.heading-3>
+
             <div class="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <x-my-works.work-card
                     image=""
@@ -39,6 +41,12 @@
                     externalUrl="https://github.com/jcsoliman07/OESCDLB"
                 />
             </div>
+        </div>
+
+        <div class="mb-8">
+            <x-heading.heading-3>Design Projects</x-heading.heading-3>
+
+            
         </div>
     </div>
 </section>

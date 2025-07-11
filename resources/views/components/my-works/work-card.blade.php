@@ -1,6 +1,4 @@
 <div>
-    <x-heading.heading-3>Web Development Projects</x-heading.heading-3>
-
     <div class="project-card bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300">
 
         <div class="project-image overflow-hidden">
