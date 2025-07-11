@@ -11,9 +11,15 @@ class DesignCard extends Component
     /**
      * Create a new component instance.
      */
-    public function __construct()
+
+    public $image, $title, $description;
+
+    public function __construct($image, $title, $description)
     {
         //
+        $this->image = $image;
+        $this->title = $title;
+        $this->description = $description;
     }
 
     /**
