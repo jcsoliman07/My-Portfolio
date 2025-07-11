@@ -11,27 +11,32 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
 
-            if (mobileMenu) {
-                mobileMenu.classList.add('hidden');
-            }
+        const targetId = this.getAttribute('href');
 
-            const targetId = this.getAttribute('href');
-            const targetSection = document.querySelector(targetId);
+        // Skip if the href is just "#"
+        if (!targetId || targetId === "#") {
+            return;
+        }
 
-            if (targetSection) {
-                // Optional: Add animation class
-                targetSection.classList.add('animate-fadeIn');
+        if (mobileMenu) {
+            mobileMenu.classList.add('hidden');
+        }
 
-                // Smooth scroll
-                targetSection.scrollIntoView({
-                    behavior: 'smooth'
-                });
-            }
-        });
+        const targetSection = document.querySelector(targetId);
+
+        if (targetSection) {
+            targetSection.classList.add('animate-fadeIn');
+
+            targetSection.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
     });
+});
+
 
     // Animation on scroll
     const sections = document.querySelectorAll('section');

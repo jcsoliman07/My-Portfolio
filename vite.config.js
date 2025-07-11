@@ -10,18 +10,8 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
-    server: {
-        host: '0.0.0.0',
-        port: process.env.PORT || 5173,
-        strictPort: true,
+    build: {
+        outDir: 'public/build',
+        emptyOutDir: true,
     },
-    preview: {
-        host: '0.0.0.0',
-        port: process.env.PORT || 4173,
-        strictPort: true,
-        allowedHosts: [
-            'jomar-soliman-portfolio.onrender.com',
-            'localhost' // keep local development allowed
-        ]
-    }
 });
