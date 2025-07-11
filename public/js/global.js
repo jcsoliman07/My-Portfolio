@@ -11,7 +11,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         
         document.getElementById('mobile-menu').classList.add('hidden');
         
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
+        const targetSection = document.querySelector(this.getAttributes('href'));
+
+        // Add Animation class
+        targetSection-classList.add('animate-fadeIn');
+
+        targetSection.scrollIntoView({
             behavior: 'smooth'
         });
     });
